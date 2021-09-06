@@ -1,0 +1,166 @@
+body {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: gray;
+  font-family: "Mulish", sans-serif;
+}
+
+.card {
+  width: 380px;
+  height: 390px;
+  background-color: white;
+  border-radius: 10px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+          box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+.card::before {
+  left: 10px;
+  top: 10px;
+  position: absolute;
+  content: "50+ Listing";
+  padding: 10px 20px;
+  background-color: #ff6922;
+  border-radius: 30px;
+  color: white;
+  font-size: 14px;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.card .dpPhoto {
+  margin-top: 50px;
+  width: 120px;
+  height: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card .dpPhoto > img {
+  width: 100%;
+  border-radius: 50%;
+  padding: 10px;
+  border: 5px solid lightgray;
+}
+
+.card .dpDetails {
+  margin-top: 10px;
+}
+
+.card .dpDetails p {
+  margin: 0;
+  text-align: center;
+  font-size: 18px;
+}
+
+.card .dpDetails p:first-child {
+  color: gray;
+}
+
+.card .dpDetails p:first-child > i {
+  margin-right: 10px;
+}
+
+.card .dpDetails p:last-child {
+  font-size: 19px;
+  font-weight: 700;
+  color: #232b40;
+}
+
+.card .dpSocial {
+  margin-top: 10px;
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 10px 0;
+}
+
+.card .dpSocial a {
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.card .dpSocial a:first-child i {
+  color: #0e76a8;
+}
+
+.card .dpSocial a:nth-child(2) i {
+  color: #cc2366;
+}
+
+.card .dpSocial a:nth-child(3) {
+  color: #00acee;
+}
+
+.card .dpSocial a:last-child {
+  color: #3b5998;
+}
+
+.card .dpBtn {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card .dpBtn a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.card .dpBtn a:first-child {
+  padding: 16px 28px;
+  background-color: #27ac58;
+  margin-right: 10px;
+}
+
+.card .dpBtn a:first-child i {
+  margin-right: 10px;
+}
+
+.card .dpBtn a:last-child {
+  padding: 16px 28px;
+  background-color: #232b40;
+}
+/*# sourceMappingURL=style.css.map */
