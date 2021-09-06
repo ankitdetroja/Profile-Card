@@ -25,7 +25,7 @@ a:hover {
 }
 
 .container {
-  padding: 0 40px;
+  padding: 0 20px;
   height: 100vh;
   margin: auto;
 }
@@ -67,6 +67,21 @@ a:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.button1 {
+  background: #232b40;
+  padding: 0.9375rem;
+  color: white;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  border-radius: 0.3125rem;
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+
+.button1:hover {
+  opacity: 0.8;
 }
 
 .card {
@@ -175,20 +190,5 @@ a:hover {
   font-size: 1.375rem;
   font-weight: 700;
   letter-spacing: 0.03125rem;
-}
-
-.card__details .card_price a {
-  background: #232b40;
-  padding: 0.9375rem;
-  color: white;
-  font-size: 0.9375rem;
-  font-weight: 500;
-  border-radius: 0.3125rem;
-  -webkit-transition: all 200ms ease-in-out;
-  transition: all 200ms ease-in-out;
-}
-
-.card__details .card_price a:hover {
-  opacity: 0.8;
 }
 /*# sourceMappingURL=style.css.map */

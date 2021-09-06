@@ -99,20 +99,6 @@
         font-weight: 700;
         letter-spacing: 0.03125rem;
       }
-
-      a {
-        background: #232b40;
-        padding: 0.9375rem;
-        color: white;
-        font-size: 0.9375rem;
-        font-weight: 500;
-        border-radius: 0.3125rem;
-        transition: all 200ms ease-in-out;
-
-        &:hover {
-          opacity: 0.8;
-        }
-      }
     }
   }
 }
