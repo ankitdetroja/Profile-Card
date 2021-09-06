@@ -12,4 +12,7 @@ live: https://profile-card-1-abd.netlify.app/
 
 live: https://profile-card-component-view.netlify.app/
 
+# Property item card 1
+
+![image](https://user-images.githubusercontent.com/47420910/132219278-7e009d57-5ee6-4a8e-9c81-ad189f63eaa9.png)
 
